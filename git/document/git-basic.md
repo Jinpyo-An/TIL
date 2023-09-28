@@ -6,7 +6,7 @@ Git은 데이터를 파일 시스템 스냅샷의 연속으로 취급하고 크�
 
 Git은 데이터를 **스냅샷의 스트림**처럼 취급
 
-<img src="image/1.3/1.png" style="width: 600px;">
+<img src="image/1.3/1.png" style="width: 600px; ">
 
 # 거의 모든 명령을 로컬에서 실행
 
