@@ -12,7 +12,7 @@
 let a = 10;
 ```
 
-![Untitled](12%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%90%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%8E%E1%85%AE%E1%84%85%E1%85%A9%E1%86%AB%203e6841e8b8a142eb9c05b316f5c4c038/Untitled.png)
+<img src="image/12/1.png">
 
 → 변수에 숫자 10이 할당되어 타입이 number(10)으로 추론되는 모습
 
@@ -32,7 +32,7 @@ let a: number = 10;
 let a;
 ```
 
-![Untitled](12%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%90%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%8E%E1%85%AE%E1%84%85%E1%85%A9%E1%86%AB%203e6841e8b8a142eb9c05b316f5c4c038/Untitled%201.png)
+<img src="image/12/2.png">
 
 → any 타입으로 추론
 
@@ -46,7 +46,7 @@ a 변수에 값을 할당하지 않아 어떤 값이 들어올지 모른다.
 let a = 'hi';
 ```
 
-![Untitled](12%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%90%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%8E%E1%85%AE%E1%84%85%E1%85%A9%E1%86%AB%203e6841e8b8a142eb9c05b316f5c4c038/Untitled%202.png)
+<img src="image/12/3.png">
 
 → string 타입으로 추론
 
@@ -59,7 +59,7 @@ let a;
 a = 10;
 ```
 
-![Untitled](12%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%90%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%8E%E1%85%AE%E1%84%85%E1%85%A9%E1%86%AB%203e6841e8b8a142eb9c05b316f5c4c038/Untitled%203.png)
+<img src="image/12/4.png">
 
 **위와 같이 동작하는 이유**
 
@@ -83,7 +83,7 @@ function sum(a: number, b: number): number {
 let result = sum(1, 2);
 ```
 
-![Untitled](12%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%90%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%8E%E1%85%AE%E1%84%85%E1%85%A9%E1%86%AB%203e6841e8b8a142eb9c05b316f5c4c038/Untitled%204.png)
+<img src="image/12/5.png">
 
 변수의 타입 추론과 마찬가지로 함수도 주어진 입력값에 따라 함수의 반환 타입이 추론된다.
 
@@ -97,11 +97,11 @@ function sum(a: number, b: number) {
 let result = sum(1, 2);
 ```
 
-![Untitled](12%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%90%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%8E%E1%85%AE%E1%84%85%E1%85%A9%E1%86%AB%203e6841e8b8a142eb9c05b316f5c4c038/Untitled%205.png)
+<img src="image/12/6.png">
 
 위와 같이 result 변수의 타입이 추론되는 이유는 sum 함수의 반환 타입이 number 타입으로 추론되기 때문이다.
 
-![Untitled](12%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%90%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%8E%E1%85%AE%E1%84%85%E1%85%A9%E1%86%AB%203e6841e8b8a142eb9c05b316f5c4c038/Untitled%206.png)
+<img src="image/12/7.png">
 
 파라미터 a와 b가 모두 number 타입으로 지정되어 있고, 이 두 숫자를 더한 결과는 당연히 숫자이기 때문에 반환 타입이 number로 정의된 것이다.
 
@@ -113,7 +113,7 @@ function isEqual(a: number, b: number) {
 }
 ```
 
-![Untitled](12%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%90%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%8E%E1%85%AE%E1%84%85%E1%85%A9%E1%86%AB%203e6841e8b8a142eb9c05b316f5c4c038/Untitled%207.png)
+<img src="image/12/8.png">
 
 반환 타입이 boolean으로 추론되는 것을 확인할 수 있다.
 
@@ -127,7 +127,7 @@ function getA(a) {
 }
 ```
 
-![Untitled](12%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%90%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%8E%E1%85%AE%E1%84%85%E1%85%A9%E1%86%AB%203e6841e8b8a142eb9c05b316f5c4c038/Untitled%208.png)
+<img src="image/12/9.png">
 
 파라미터 타입을 지정하지 않았으므로 기본 타입은 any가 된다.
 
@@ -141,7 +141,7 @@ function getA(a: number) {
 }
 ```
 
-![Untitled](12%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%90%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%8E%E1%85%AE%E1%84%85%E1%85%A9%E1%86%AB%203e6841e8b8a142eb9c05b316f5c4c038/Untitled%209.png)
+<img src="image/12/10.png">
 
 함수의 파라미터 타입은 함수 내부에서도 동일하게 추론된다.
 
@@ -155,7 +155,7 @@ function getA(a = 10) {
 }
 ```
 
-![Untitled](12%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%90%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%8E%E1%85%AE%E1%84%85%E1%85%A9%E1%86%AB%203e6841e8b8a142eb9c05b316f5c4c038/Untitled%2010.png)
+<img src="image/12/11.png">
 
 기본값이 숫자 10이기 때문에 파라미터 타입은 number로 추론된다.
 
@@ -170,7 +170,7 @@ function getA(a: number) {
 }
 ```
 
-![Untitled](12%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%90%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%8E%E1%85%AE%E1%84%85%E1%85%A9%E1%86%AB%203e6841e8b8a142eb9c05b316f5c4c038/Untitled%2011.png)
+<img src="image/12/12.png">
 
 함수의 반환 타입이 string으로 추론된다.
 
@@ -199,17 +199,17 @@ let shoppingItem: Dropdown<number> = {
 }
 ```
 
-![Untitled](12%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%90%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%8E%E1%85%AE%E1%84%85%E1%85%A9%E1%86%AB%203e6841e8b8a142eb9c05b316f5c4c038/Untitled%2012.png)
+<img src="image/12/13.png">
 
 변수를 Dropdown 인터페이스 타입을 정의하였기 때문에 자동완성할 수 있는 속성들을 확인할 수 있다.
 
 title 속성은 문자열 타입으로 선언 → string 타입으로 추론
 
-![Untitled](12%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%90%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%8E%E1%85%AE%E1%84%85%E1%85%A9%E1%86%AB%203e6841e8b8a142eb9c05b316f5c4c038/Untitled%2013.png)
+<img src="image/12/14.png">
 
 value 속성은 number 타입으로 추론
 
-![Untitled](12%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%90%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%8E%E1%85%AE%E1%84%85%E1%85%A9%E1%86%AB%203e6841e8b8a142eb9c05b316f5c4c038/Untitled%2014.png)
+<img src="image/12/15.png">
 
 이처럼 **인터페이스에 제네릭을 사용할 때도 타입스크립트 내부적으로 적절한 타입을 추론**해준다.
 
@@ -241,15 +241,15 @@ let shoppingDetailItem: DetailedDropdown<number> = {
 
 객체에 사용할 수 있는 속성이 미리보기로 표시
 
-![Untitled](12%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%90%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%8E%E1%85%AE%E1%84%85%E1%85%A9%E1%86%AB%203e6841e8b8a142eb9c05b316f5c4c038/Untitled%2015.png)
+<img src="image/12/16.png">
 
 Dropdown 인터페이스의 value 속성이 number 타입으로 추론되는 이유
 
-![Untitled](12%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%90%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%8E%E1%85%AE%E1%84%85%E1%85%A9%E1%86%AB%203e6841e8b8a142eb9c05b316f5c4c038/Untitled%2016.png)
+<img src="image/12/17.png">
 
 → DetailedDropdown 인터페이스에 넘긴 제네릭 타입이 Dropdown 인터페이스의 제네릭 타입으로 전달되었기 때문이다.
 
-![Untitled](12%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%90%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%8E%E1%85%AE%E1%84%85%E1%85%A9%E1%86%AB%203e6841e8b8a142eb9c05b316f5c4c038/Untitled%2017.png)
+<img src="image/12/18.png">
 
 결과적으로 Dropdown 인터페이스의 value 속성은 number 타입을 갖게 되고 shoppingDeatailItem 객체는 다음과 같이 선언할 수 있다.
 
